@@ -1,0 +1,5 @@
+project_id = "annan-pro"
+
+[functions.send-notifications]
+# The cron/webhook bearer secret is checked inside the function.
+verify_jwt = false
